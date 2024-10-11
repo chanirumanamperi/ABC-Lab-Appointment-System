@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300&display=swap');
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+}
+
+input {
+  margin-top: 1%;
+  margin-left: 1%;
+  font-family: Montserrat, sans-serif;
+  padding: 0.5%;
+  /* border-radius: 7em; */
+  /* background-color: #ccd5fc; Green */
+
+  /* border: 0; */
+}
+
+button {
+  font-family: Montserrat, sans-serif;
+  transition-duration: 0.7s;
+  margin-top: 2%;
+  height: 3em;
+  width: 7em;
+  color: white;
+  background-color: #7589eb;
+  border-radius: 7em;
+  border: 0;
+}
+
+button:hover {
+  background-color: #ccd5fc;
+  color: black;
+  border-radius: 7em;
+}
+
+.test-card-content {
+  padding: 16px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.test-card-content h2 {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.test-card-content p {
+  margin-bottom: 4px;
+  color: #666;
+}
+
+/* Add custom styles for the DateTimePicker */
+.MuiFormControl-root .MuiTextField-root {
+  margin-bottom: 20px;
+}
+
+.MuiFormControl-root .MuiFormLabel-root {
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.MuiFormControl-root .MuiInputBase-root {
+  border-radius: 5px;
+}
+
+.MuiFormControl-root .MuiInputBase-root input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.MuiFormControl-root .MuiFormHelperText-root {
+  font-size: 12px;
+  color: red;
+}
+
+.MuiButtonBase-root.MuiIconButton-root {
+  color: #333;
+}
+
+.MuiButtonBase-root.MuiIconButton-root:hover {
+  background-color: transparent;
+}
